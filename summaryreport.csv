@@ -1,0 +1,11 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1593489651073,446,google,200,OK,Test Thread Group 1-1,text,true,,15899,0,1,1,http://www.google.com/,436,0,0
+1593489651524,195,google,200,OK,Test Thread Group 1-1,text,true,,15939,0,1,1,http://www.google.com/,193,0,0
+1593489651721,309,google,200,OK,Test Thread Group 1-1,text,true,,15947,0,1,1,http://www.google.com/,308,0,0
+1593489652032,204,google,200,OK,Test Thread Group 1-1,text,true,,15963,0,1,1,http://www.google.com/,201,0,0
+1593489652237,190,google,200,OK,Test Thread Group 1-1,text,true,,15876,0,1,1,http://www.google.com/,187,0,0
+1593489652428,187,google,200,OK,Test Thread Group 1-1,text,true,,15949,0,1,1,http://www.google.com/,184,0,0
+1593489652617,194,google,200,OK,Test Thread Group 1-1,text,true,,15868,0,1,1,http://www.google.com/,186,0,0
+1593489652812,201,google,200,OK,Test Thread Group 1-1,text,true,,15897,0,1,1,http://www.google.com/,199,0,0
+1593489653015,257,google,200,OK,Test Thread Group 1-1,text,true,,15889,0,1,1,http://www.google.com/,256,0,0
+1593489653274,199,google,200,OK,Test Thread Group 1-1,text,true,,15938,0,1,1,http://www.google.com/,198,0,0
