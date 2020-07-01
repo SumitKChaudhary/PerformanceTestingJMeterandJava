@@ -16,7 +16,7 @@
         </elementProp>
       </ThreadGroup>
       <org.apache.jorphan.collections.HashTree>
-        <HTTPSampler__ guiclass="HttpTestSampleGui" testclass="HTTPSampler_" testname="SampleAPI">
+        <HTTPSampler__ guiclass="HttpTestSampleGui" testclass="HTTPSampler_" testname="SampleTest">
           <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
             <collectionProp name="Arguments.arguments"/>
           </elementProp>
