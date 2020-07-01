@@ -1,5 +1,5 @@
 /**
- * @author 			:	 Neelam-Sonu
+ * @author 			:	 Sumit Kumar Chaudhary
  *	DATE       		:	 01-Jul-2020
  *  FILE NAME  		: 	 GetTestJMXFileResult.java
  *  PROJECT NAME 	:	 JmeterRead
