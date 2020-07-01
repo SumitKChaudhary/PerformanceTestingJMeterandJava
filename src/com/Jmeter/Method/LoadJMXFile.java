@@ -19,11 +19,11 @@ import org.apache.jorphan.collections.HashTree;
 
 public class LoadJMXFile 
 {
-	public static void main(String[] argv) throws Exception {  
+	public static void readJMXFile(String jmeterHomelocation, String jmeterPropertieslocation, String jmxFileLocation ) throws Exception {  
 		   
 	     //Set jmeter home for the jmeter utils to load  
-	     String jmeterHomelocation = "F:\\apache-jmeter-5.2.1\\";  
-	     String jmeterPropertieslocation = jmeterHomelocation + "bin\\jmeter.properties";  
+	   //  String jmeterHomelocation = "F:\\apache-jmeter-5.2.1\\";  
+	   //  String jmeterPropertieslocation = jmeterHomelocation + "bin\\jmeter.properties";  
 	   
 	     // JMeter Engine  
 	     StandardJMeterEngine jmeter = new StandardJMeterEngine();  
@@ -40,10 +40,9 @@ public class LoadJMXFile
 	     SaveService.loadProperties();  
 	   
 	     // Load existing .jmx Test Plan  
-	     File jmxFilePath = new File("C:\\Users\\Neelam-Sonu\\Desktop\\Thread Group.jmx");
-	     FileInputStream in = new FileInputStream(jmxFilePath);  
+	    File jmxFilePath = new File(jmxFileLocation);
 	     HashTree testPlanTree = SaveService.loadTree(jmxFilePath);
-	     in.close();  
+	     
 	             
 	     Summariser summer = null;  
 	     String summariserName = JMeterUtils.getPropDefault("summariser.name", "summary");  
