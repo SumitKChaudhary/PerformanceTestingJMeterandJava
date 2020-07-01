@@ -87,7 +87,7 @@ import org.apache.jorphan.collections.HashTree;
        
      
      // save generated test plan to JMeter's .jmx file format  
-     SaveService.saveTree(testPlanTree, new FileOutputStream("C:\\Users\\Neelam-Sonu\\Desktop\\Report\\jmeter_api_sample2.jmx"));  
+     SaveService.saveTree(testPlanTree, new FileOutputStream(System.getProperty("user.dir")+File.separator+"ReportContainer"+File.separator+"jmeter_api_sample2.jmx"));  
    
      //add Summarizer output to get test progress in stdout like:  
      // summary =   2 in  1.3s =  1.5/s Avg:  631 Min:  290 Max:  973 Err:   0 (0.00%)  
@@ -100,8 +100,8 @@ import org.apache.jorphan.collections.HashTree;
    
     
      // Store execution results into a .jtl file, we can save file as csv also  
-     String reportFile = "C:\\Users\\Neelam-Sonu\\Desktop\\Report\\summaryreport2.jtl";  
-     String csvFile = "C:\\Users\\Neelam-Sonu\\Desktop\\Report\\summaryreport2.csv";  
+     String reportFile = System.getProperty("user.dir")+File.separator+"ReportContainer"+File.separator+"summaryreport2.jtl";  
+     String csvFile = System.getProperty("user.dir")+File.separator+"ReportContainer"+File.separator+"summaryreport2.csv";  
      ResultCollector logger = new ResultCollector(summer);  
      logger.setFilename(reportFile);  
      ResultCollector csvlogger = new ResultCollector(summer);  

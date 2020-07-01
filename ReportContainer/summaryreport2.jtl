@@ -1,0 +1,11 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1593600966998,28,SampleAPI,200,OK,Test Thread Group 1-1,text,true,,15196,0,1,1,http://127.0.0.1:3000/Simple_Json,23,0,0
+1593600967031,10,SampleAPI,200,OK,Test Thread Group 1-1,text,true,,15196,0,1,1,http://127.0.0.1:3000/Simple_Json,10,0,0
+1593600967042,33,SampleAPI,200,OK,Test Thread Group 1-1,text,true,,15196,0,1,1,http://127.0.0.1:3000/Simple_Json,33,0,0
+1593600967076,7,SampleAPI,200,OK,Test Thread Group 1-1,text,true,,15196,0,1,1,http://127.0.0.1:3000/Simple_Json,7,0,0
+1593600967084,8,SampleAPI,200,OK,Test Thread Group 1-1,text,true,,15196,0,1,1,http://127.0.0.1:3000/Simple_Json,8,0,0
+1593600967093,10,SampleAPI,200,OK,Test Thread Group 1-1,text,true,,15196,0,1,1,http://127.0.0.1:3000/Simple_Json,10,0,0
+1593600967104,8,SampleAPI,200,OK,Test Thread Group 1-1,text,true,,15196,0,1,1,http://127.0.0.1:3000/Simple_Json,7,0,0
+1593600967112,6,SampleAPI,200,OK,Test Thread Group 1-1,text,true,,15196,0,1,1,http://127.0.0.1:3000/Simple_Json,6,0,0
+1593600967119,8,SampleAPI,200,OK,Test Thread Group 1-1,text,true,,15196,0,1,1,http://127.0.0.1:3000/Simple_Json,8,0,0
+1593600967128,9,SampleAPI,200,OK,Test Thread Group 1-1,text,true,,15196,0,1,1,http://127.0.0.1:3000/Simple_Json,9,0,0
